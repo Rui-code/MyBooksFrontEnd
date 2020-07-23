@@ -1,0 +1,9 @@
+.sidebar {background-color: #C1B4C6;padding: 0px;margin: 5px 5px 5px;height: 893px;width: 320px;}
+
+.sidebar ul{list-style: none;padding: 1px 0;}
+
+.sidebar ul li {font-weight: normal;font-style: none;}
+
+.sidebar ul li input {text-decoration: none;text-align: center;width: 100%;background: #74637A;border: hidden;padding: 10px 0;border-style: solid;border-width: 1px;}
+
+.sidebar ul li input:hover{background: #697A73;}
