@@ -1,11 +1,17 @@
 import React from 'react';
 import './App.css';
-import Sidebar from './sidebar/index.js';
+import Sidebar from './sidebar/index';
+import Upbar from './upbar/index';
+import Detail from './details/index';
 
 function App() {
   return (
     <>
-      <Sidebar />
+      <Upbar />
+      <div className="middle">
+        <Sidebar />
+        <Detail />
+      </div>
     </>
   );
 }
