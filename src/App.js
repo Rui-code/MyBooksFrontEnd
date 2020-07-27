@@ -3,6 +3,7 @@ import './App.css';
 import Sidebar from './sidebar/index';
 import Upbar from './upbar/index';
 import Detail from './details/index';
+import Footer from './downbar/index';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Sidebar />
         <Detail />
       </div>
+      <Footer />
     </>
   );
 }
